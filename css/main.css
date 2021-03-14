@@ -61,6 +61,11 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
   }
+@media (max-width:600px){
+  .dropdown-content a{
+    font-size: 2vw ;
+  }
+}
 /* _________________________image________________________ */
 .image {
     background-image: url(../images/bg.jpg);
